@@ -1,0 +1,48 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saikojosh/Ultimail-Styling-Inline-CSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saikojosh/Ultimail-Styling-Inline-CSS/issues"
+  },
+  "name": "ultimail-styling-inline-css",
+  "version": "0.0.1",
+  "description": "Styling middleware for Ultimail that adds support for inlining CSS into the email HTML.",
+  "keywords": [
+    "ultimail",
+    "styling",
+    "style",
+    "styles",
+    "inline-css",
+    "inline",
+    "css",
+    "email",
+    "emails",
+    "middleware"
+  ],
+  "main": "ultimailStylingInlineCss.js",
+  "author": "Josh Cole <saikojosh@gmail.com> (http://www.JoshuaCole.me)",
+  "contributors": [
+    {
+      "name": "Josh Cole",
+      "email": "saikojosh@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "inline-css": "^2.2.2",
+    "object-extender": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-recombix": "latest",
+    "eslint-plugin-filenames": "latest",
+    "eslint-plugin-json": "latest",
+    "eslint-plugin-node": "^4.2.1",
+    "eslint-plugin-promise": "latest"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MIT"
+}
